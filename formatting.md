@@ -1,4 +1,4 @@
-#Formatting
+# Formatting
 
 * Helps with readability and maintainability of the code
 
