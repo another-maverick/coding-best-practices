@@ -23,7 +23,8 @@
 * **No space between function definition and paranthesis open**. example: myFunc()
 * **Arguments should be separated by a comma**. example: myFunc(a, b, c)
 * Equation
-    * **Equation** -- a*b + c*d -e*f **No space between * since its higher in precedence. There is space for + and - since its lower in precedence**
+    * **Equation**  (a*b + c*d -e*f) **No space between * since its higher in precedence. There is space for + and - since its lower in precedence**
+
 
 
 ## Indentation
