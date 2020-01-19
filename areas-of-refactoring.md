@@ -46,5 +46,15 @@
 ### Separation
 * Variables should be declared close to where they are used. Local variables shuld be declared right before their use
 ### Consistency
-* There should be consistency in how variables are defined and named. 
+* There should be consistency in how variables are defined and named
+### Selector Arguments
+* Do not have boolena arguments. Not neat to pass true and false to the function in the arg list
+### Placement of code
+* Follow "least surprise" when making a decision as to where to place the code. Others should be able to make out whats going on by looking at the name of file, class or function
+### Static methods in a class
+* Think twice. Would this need to be static? When in doubt, make a method non-static
+### Meaningful Names
+* More variables with meaningful names is better than less variable with not-so-meaningful names. Refactor whenever needed. IDE's make it easy to refactor variable names
+### Boolean Logic
+* If you have multiple && or || in a "if" condition for example, try to have a function that checks the condition instead... like **if(eligibleForRaise())** instead of **if(<cond1> && <cond2>)** 
 
