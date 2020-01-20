@@ -57,4 +57,12 @@
 * More variables with meaningful names is better than less variable with not-so-meaningful names. Refactor whenever needed. IDE's make it easy to refactor variable names
 ### Boolean Logic
 * If you have multiple && or || in a "if" condition for example, try to have a function that checks the condition instead... like **if(eligibleForRaise())** instead of **if(<cond1> && <cond2>)** 
+* Avoid Negative Conditionals
+* **Functions** should do only **one** thing
+
+### Meaningful Names
+* This plays an important role in *readability*
+* As long as the scope is very limited, do not use variables like x, y, z, a, b, c  etc.
+* Say if you are using decorators,  try to use "decorator" as a part of the name.
+
 
